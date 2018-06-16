@@ -1,0 +1,16 @@
+---
+title: '1.0'
+date: 6.16
+output: html_document
+---
+
+```{r}
+library(devtools)
+require (Rfacebook)
+```
+
+```{r}
+fb_oauth <- fbOAuth(app_id="143342306539030", app_secret="1f1d6586f945f3314962e17614e7913e",extended_permissions = TRUE)
+```
+
+
